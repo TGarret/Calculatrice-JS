@@ -1,21 +1,20 @@
-    function add(number1,number2){
-        var sum = number1+number2;
+    function add(x,y){
+        var sum = x+y;
         return sum;
     }
 
-    function multiply(number1,number2) {
-        var multiple = number1*number2;
+    function multiply(x,y) {
+        var multiple = x*y;
         return multiple;
     }
 
-    function substract(number1,number2){
-        var substracted = number1-number2;
+    function substract(x,y){
+        var substracted = x-y;
         return substracted;
     }
 
-    function divide(number1,number2){
-        var divided = number1/number2;
-        return divided;
+    function divide(x,y){
+        return x/y
     }
     
     var zero = document.getElementById('zero');
